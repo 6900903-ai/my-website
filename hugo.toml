@@ -15,7 +15,7 @@ enableRobotsTXT = true
     contentDir = "content"
 
 [params]
-  defaultTheme = "auto"
+  defaultTheme = "dark"
   ShowReadingTime = true
   ShowShareButtons = true
   ShowPostNavLinks = true
@@ -30,16 +30,6 @@ enableRobotsTXT = true
   [params.homeInfoParams]
     Title = "Мой blog"
     Content = "Добро пожаловать 👋"
-
-  [params.profileMode]
-    enabled = false
-
-  [params.assets]
-    favicon = "/favicon.ico"
-    favicon16x16 = "/favicon-16x16.png"
-    favicon32x32 = "/favicon-32x32.png"
-    apple_touch_icon = "/apple-touch-icon.png"
-    safari_pinned_tab = "/safari-pinned-tab.svg"
 
   [[params.socialIcons]]
     name = "telegram"
@@ -56,6 +46,10 @@ enableRobotsTXT = true
   [[params.socialIcons]]
     name = "email"
     url = "mailto:yury@chudzinovich.de"
+
+  [params.assets]
+    disableHLJS = false
+    favicon = "/favicon.ico"
 
   [params.analytics.google]
     SiteVerificationTag = "YOUR_GOOGLE_TAG"
