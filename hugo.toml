@@ -1,0 +1,44 @@
+baseURL = 'https://6900903-ai.github.io/my-website/'
+title = 'My Blog'
+theme = 'PaperMod'
+
+enableRobotsTXT = true
+
+[pagination]
+  pagerSize = 10
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    label = "EN"
+    weight = 1
+    contentDir = "content"
+
+[params]
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowToc = true
+  TocOpen = false
+
+  [params.homeInfoParams]
+    Title = "Мой blog"
+    Content = "Добро пожаловать 👋"
+
+[[menu.main]]
+name = "Главная"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "Посты"
+url = "/posts/"
+weight = 2
+
+[[menu.main]]
+name = "Архив"
+url = "/archives/"
+weight = 3

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Home on My Blog</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content in Home on My Blog</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 12 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Второй пост</title>
+      <link>http://localhost:1313/posts/post-2/</link>
+      <pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/post-2/</guid>
+      <description>&lt;h1 id=&#34;второй-пост&#34;&gt;Второй пост&lt;/h1&gt;
+&lt;p&gt;Это тест PaperMod структуры.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Мой первый пост</title>
+      <link>http://localhost:1313/posts/my-first-post/</link>
+      <pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/my-first-post/</guid>
+      <description>&lt;h1 id=&#34;привет-&#34;&gt;Привет 👋&lt;/h1&gt;
+&lt;p&gt;Это мой первый пост на Hugo PaperMod.&lt;/p&gt;
+&lt;p&gt;Я настроил сайт и теперь он работает.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Первая запись</title>
+      <link>http://localhost:1313/posts/first-post/</link>
+      <pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/first-post/</guid>
+      <description>&lt;h1 id=&#34;добро-пожаловать&#34;&gt;Добро пожаловать&lt;/h1&gt;
+&lt;p&gt;Это мой первый сайт на Hugo.&lt;/p&gt;
+&lt;p&gt;Сайт работает локально и скоро будет опубликован на GitHub Pages.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
