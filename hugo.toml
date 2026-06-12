@@ -23,10 +23,45 @@ enableRobotsTXT = true
   ShowCodeCopyButtons = true
   ShowToc = true
   TocOpen = false
+  ShowRssButtonInSectionTermList = true
+  UseHugoToc = true
+  disableSpecial1stPost = false
 
   [params.homeInfoParams]
     Title = "Мой blog"
     Content = "Добро пожаловать 👋"
+
+  [params.profileMode]
+    enabled = false
+
+  [params.assets]
+    favicon = "/favicon.ico"
+    favicon16x16 = "/favicon-16x16.png"
+    favicon32x32 = "/favicon-32x32.png"
+    apple_touch_icon = "/apple-touch-icon.png"
+    safari_pinned_tab = "/safari-pinned-tab.svg"
+
+  [[params.socialIcons]]
+    name = "telegram"
+    url = "https://t.me/your_channel"
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/6900903-ai"
+
+  [[params.socialIcons]]
+    name = "twitter"
+    url = "https://twitter.com/your_handle"
+
+  [[params.socialIcons]]
+    name = "email"
+    url = "mailto:yury@chudzinovich.de"
+
+  [params.analytics.google]
+    SiteVerificationTag = "YOUR_GOOGLE_TAG"
+
+  [params.analytics.yandex]
+    SiteVerificationTag = "YOUR_YANDEX_TAG"
 
 [[menu.main]]
 name = "Главная"
@@ -42,3 +77,8 @@ weight = 2
 name = "Архив"
 url = "/archives/"
 weight = 3
+
+[[menu.main]]
+name = "Поиск"
+url = "/search/"
+weight = 4

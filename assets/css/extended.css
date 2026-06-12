@@ -1,0 +1,87 @@
+:root {
+    --gap: 24px;
+    --content-gap: 20px;
+    --nav-width: 1024px;
+    --main-width: 720px;
+    --header-height: 60px;
+    --footer-height: 60px;
+    --radius: 8px;
+    --theme: #1a1a2e;
+    --entry: #16213e;
+    --primary: #e94560;
+    --secondary: #0f3460;
+    --tertiary: #533483;
+    --content: #eaeaea;
+    --hljs-bg: #2e2e33;
+    --code-bg: #2e2e33;
+    --border: #2e2e33;
+}
+
+.dark {
+    --theme: #0f0f23;
+    --entry: #1a1a2e;
+    --primary: #e94560;
+    --secondary: #16213e;
+    --tertiary: #533483;
+    --content: #eaeaea;
+    --hljs-bg: #1a1a2e;
+    --code-bg: #1a1a2e;
+    --border: #1a1a2e;
+}
+
+body {
+    font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+    line-height: 1.6;
+    color: var(--content);
+    background: var(--theme);
+}
+
+.post-title {
+    font-weight: 700;
+    font-size: 1.8rem;
+    color: var(--primary);
+}
+
+.post-content {
+    font-size: 1.05rem;
+    line-height: 1.8;
+}
+
+.nav {
+    background: rgba(26, 26, 46, 0.95);
+    backdrop-filter: blur(10px);
+}
+
+.footer {
+    background: var(--entry);
+    border-top: 1px solid var(--border);
+}
+
+.social-icons a {
+    color: var(--primary);
+    transition: transform 0.2s;
+}
+
+.social-icons a:hover {
+    transform: scale(1.2);
+    color: var(--tertiary);
+}
+
+.post-entry {
+    background: var(--entry);
+    border-radius: var(--radius);
+    padding: var(--gap);
+    margin-bottom: var(--content-gap);
+    border: 1px solid var(--border);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.post-entry:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(233, 69, 96, 0.15);
+}
+
+.reading-time {
+    color: var(--tertiary);
+    font-size: 0.85rem;
+}
