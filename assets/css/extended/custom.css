@@ -30,7 +30,7 @@ body {
 .post-title {
     font-weight: 700;
     font-size: 1.8rem;
-    color: var(--primary);
+    color: var(--primary) !important;
 }
 
 .post-entry {
@@ -58,11 +58,23 @@ body {
 }
 
 .nav {
-    background: rgba(26, 26, 46, 0.95);
+    background: rgba(26, 26, 46, 0.95) !important;
     backdrop-filter: blur(10px);
 }
 
 .footer {
-    background: var(--entry);
+    background: var(--entry) !important;
     border-top: 1px solid var(--border);
+}
+
+.main {
+    background: var(--theme);
+}
+
+.post-content {
+    color: var(--content);
+}
+
+.post-meta {
+    color: var(--tertiary);
 }
